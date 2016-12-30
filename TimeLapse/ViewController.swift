@@ -21,7 +21,6 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-        // Nam Comment
     }
 
     func respondToSwipeGesture(gesture: UIGestureRecognizer) {
