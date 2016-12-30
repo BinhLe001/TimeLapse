@@ -13,6 +13,9 @@
 		B7C523C11E1600AE00631871 /* TimeLapse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7C523BF1E1600AE00631871 /* TimeLapse.xcdatamodeld */; };
 		B7C523C31E1600AE00631871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C523C21E1600AE00631871 /* Assets.xcassets */; };
 		B7C523C61E1600AE00631871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C523C41E1600AE00631871 /* LaunchScreen.storyboard */; };
+		B7C523D01E161DD900631871 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C523CF1E161DD900631871 /* AlbumViewController.swift */; };
+		B7C523D41E16301B00631871 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C523D31E16301B00631871 /* ImageViewController.swift */; };
+		B7C523D61E1631C300631871 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C523D51E1631C300631871 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		B7C523C21E1600AE00631871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7C523C51E1600AE00631871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7C523C71E1600AE00631871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7C523CF1E161DD900631871 /* AlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		B7C523D31E16301B00631871 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		B7C523D51E1631C300631871 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				B7C523B81E1600AE00631871 /* AppDelegate.swift */,
 				B7C523BA1E1600AE00631871 /* ViewController.swift */,
+				B7C523CF1E161DD900631871 /* AlbumViewController.swift */,
+				B7C523D31E16301B00631871 /* ImageViewController.swift */,
+				B7C523D51E1631C300631871 /* PhotoViewController.swift */,
 				B7C523BC1E1600AE00631871 /* Main.storyboard */,
 				B7C523C21E1600AE00631871 /* Assets.xcassets */,
 				B7C523C41E1600AE00631871 /* LaunchScreen.storyboard */,
@@ -140,9 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7C523D01E161DD900631871 /* AlbumViewController.swift in Sources */,
 				B7C523C11E1600AE00631871 /* TimeLapse.xcdatamodeld in Sources */,
+				B7C523D41E16301B00631871 /* ImageViewController.swift in Sources */,
 				B7C523BB1E1600AE00631871 /* ViewController.swift in Sources */,
 				B7C523B91E1600AE00631871 /* AppDelegate.swift in Sources */,
+				B7C523D61E1631C300631871 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +320,7 @@
 				B7C523CC1E1600AE00631871 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
